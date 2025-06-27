@@ -51,9 +51,3 @@ All Python code used for:
 - **Evaluation Libraries**: ROUGE, BERTScore, TextBlob  
 - **Statistical Analysis**: `scipy`, `statsmodels`, `sklearn`, `pandas`, `matplotlib`  
 - **Notebook Environment**: Jupyter Notebook (Python 3.9)
-
----
-
-## ✉️ Contact  
-For questions or follow-up, feel free to contact the project team.  
-*(You can add your email or GitHub here if you want)*
