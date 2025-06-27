@@ -14,7 +14,6 @@ Conducted in partnership with **Ernst & Young (EY)** and **The George Washington
 4. **Calculate AIR (Adverse Impact Ratio)** to assess fairness thresholds and guide deployment readiness.  
 5. **Provide actionable recommendations** for deploying LLMs responsibly in finance.
 
-<img width="183" alt="Image" src="https://github.com/user-attachments/assets/d7b35a9a-2fa2-46b0-8319-8cdedf8d3695" />
 ---
 
 ## 🧠 Methodology Overview  
