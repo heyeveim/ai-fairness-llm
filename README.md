@@ -1,44 +1,59 @@
-# AI-fairness-llm
-Evaluating fairness and summarization quality in large language models (LLMs) for financial institutions, with a focus on bias detection and responsible AI practices.
+# 🤖 AI-Driven Fairness and Summarization in LLMs for Financial Institutions
 
+## ⚙️ Problem Statement  
+This project examines the fairness and summarization quality of Large Language Models (LLMs) in the context of financial institutions. As AI systems are increasingly used in finance for tasks like customer communication and decision-making, ensuring fairness and explainability is critical. We aim to evaluate how identity-sensitive inputs affect LLM outputs and propose a robust evaluation framework.
 
-This folder contains all final deliverables for the project:
+Conducted in partnership with **Ernst & Young (EY)** and **The George Washington University**.
 
-"AI-Driven Fairness Measurement and Summarization in Large Language Models: An Examination for Financial Institutions"
+---
 
-Conducted in partnership with Ernst & Young (EY) and The George Washington University.
+## 🎯 Project Objectives  
+1. **Evaluate LLM-generated summaries** across identity groups using prompt engineering.  
+2. **Measure fairness and bias** using quantitative metrics like ROUGE, BERTScore, and sentiment polarity.  
+3. **Conduct statistical tests** (e.g., ANOVA, MANOVA, CCA) to determine significant group-based disparities.  
+4. **Calculate AIR (Adverse Impact Ratio)** to assess fairness thresholds and guide deployment readiness.  
+5. **Provide actionable recommendations** for deploying LLMs responsibly in finance.
 
-1. Final Report (.docx)
-A formal research report outlining the full methodology, tools, and results of our fairness evaluation framework for LLM-generated summaries.
+---
 
-Includes detailed explanations of:
+## 🧠 Methodology Overview  
+This project leverages a multi-step evaluation pipeline:
 
-	- Identity group setup and prompt engineering
-	- Evaluation metrics (ROUGE, BERTScore, Sentiment)
-	- Statistical tests (ANOVA, MANOVA, Canonical Correlation)
-	- AIR-based fairness thresholds and deployment decisions
+- **Prompt Engineering**: Craft identity-sensitive inputs to test for fairness across demographics.  
+- **Summary Generation**: Use **Cohere Command R via AWS Bedrock** to generate outputs.  
+- **Metric Evaluation**: Compute ROUGE, BERTScore, and sentiment metrics per identity group.  
+- **Statistical Analysis**: Run ANOVA, MANOVA, and Canonical Correlation to test for fairness violations.  
+- **AIR Calculation**: Determine whether deployment meets regulatory fairness thresholds.  
 
-Concludes with findings, interpretations, and actionable recommendations.
+---
 
-2. Presentation Slides (.pptx)
-A high-level presentation designed for the client audience, summarizing:
+## 📂 Project Deliverables  
 
-	- Project goals and motivations
-	- Framework steps and evaluation criteria
-	- Key metric results and takeaways
-	- Decision rules for assessing LLM fairness and deployment readiness
+### 1. 📄 Final Report (`.docx`)  
+Detailed methodology, evaluation metrics, statistical tests, findings, and recommendations.
 
-3. Jupyter Notebook (.ipynb)
-Contains all Python code used to implement the fairness evaluation framework.
+### 2. 📊 Presentation Slides (`.pptx`)  
+Client-facing summary of goals, framework, key results, and fairness decision rules.
 
-Key components include:
+### 3. 📓 Jupyter Notebook (`.ipynb`)  
+All Python code used for:
 
-	- Summary generation across identity groups using Cohere Command R via Bedrock
-	- Metric calculations (ROUGE, BERTScore, Sentiment via TextBlob)
-	- Statistical and regression analysis (ANOVA, MANOVA, regression, CCA)
-	- AIR score computation
-	- Sentiment analysis
+- Summary generation  
+- Metric calculation (ROUGE, BERTScore, sentiment)  
+- Statistical testing  
+- AIR scoring  
+- Visualizations and annotations for reproducibility  
 
-Notebook is fully annotated for reproducibility and further exploration.
+---
 
-For any questions or follow-up, please contact the project team.
+## 📁 Data & Tools Used  
+- **LLM API**: Cohere Command R via **AWS Bedrock**  
+- **Evaluation Libraries**: ROUGE, BERTScore, TextBlob  
+- **Statistical Analysis**: `scipy`, `statsmodels`, `sklearn`, `pandas`, `matplotlib`  
+- **Notebook Environment**: Jupyter Notebook (Python 3.9)
+
+---
+
+## ✉️ Contact  
+For questions or follow-up, feel free to contact the project team.  
+*(You can add your email or GitHub here if you want)*
