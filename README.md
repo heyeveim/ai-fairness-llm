@@ -29,21 +29,98 @@ This project leverages a multi-step evaluation pipeline:
 
 ---
 
-## 📊 Key Findings
+## 📈 Key Findings
 
-- **Bias Detection**: Statistical testing (ANOVA, MANOVA, CCA) and AIR scoring revealed potential group-level bias in LLM-generated summaries, especially in sentiment tone and word similarity.
-- **Summary Quality**: ROUGE and BERTScore metrics showed performance variation across identity groups, highlighting inconsistencies in semantic meaning and precision.
-- **Sentiment Shifts**: Sentiment analysis uncovered tone discrepancies across protected classes — some summaries reflected subtle shifts in polarity and emotional framing.
-- **Human Oversight**: Manual review supported metric findings, emphasizing the importance of qualitative validation in fairness assessments.
-- **Deployment Risk**: Without proper fairness checks, LLMs risk amplifying bias in high-stakes financial contexts. Regulatory compliance and human-in-the-loop practices are critical.
+### 🔹 1. CCA (Canonical Correlation Analysis)
 
-<img width="480" alt="Image" src="https://github.com/user-attachments/assets/4ef27994-4526-47c4-ba3d-1d6a9f7fb3b9" />
+<p align="center">
+  <img src="images/CCA_Coefficients.png" alt="CCA Coefficients" width="600"/>
+</p>
 
-<img width="560" alt="Image" src="https://github.com/user-attachments/assets/183e1ac4-f187-41f1-8f07-c56f8b1e69d4" />
+- The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
 
-<img width="535" alt="Image" src="https://github.com/user-attachments/assets/8eab3ccd-6519-41f5-b098-ff85d0176dfe" />
+---
 
-<img width="550" alt="Image" src="https://github.com/user-attachments/assets/4c92cb94-173a-4e38-938f-b3e5dfd39e76" />
+### 🔹 2. Methodology Pipeline
+
+<p align="center">
+  <img src="images/Concept_Map.png" alt="Methodology Flowchart" width="600"/>
+</p>
+
+- Full evaluation pipeline from data filtering → LLM prompt generation → metric evaluation → statistical analysis.
+
+---
+
+### 🔹 3. Sentiment Score Differences
+
+<p align="center">
+  <img src="images/Sentiment_Distribution.png" alt="Sentiment Score Histogram" width="600"/>
+</p>
+
+- Distribution of sentiment score differences shows **visible polarity shift** between `white_male` and `white_female` groups.
+
+---
+
+### 🔹 4. MANOVA Results
+
+<p align="center">
+  <img src="images/MANOVA_Results.png" alt="MANOVA Table" width="600"/>
+</p>
+
+- Roy’s Greatest Root p-value = **0.0076**, confirming **statistically significant** group-level differences.
+
+---
+
+### 🔹 5. Evaluation Thresholds
+
+<p align="center">
+  <img src="images/Playbook_Thresholds.png" alt="Key Thresholds" width="600"/>
+</p>
+
+- LLM output is considered biased if both:
+  - **p < 0.05**, and
+  - **AIR ≤ 0.90** (Adverse Impact Ratio).
+
+---
+
+### 🔹 6. Regression & AIR Process
+
+<p align="center">
+  <img src="images/Regression_AIR.png" alt="AIR Process" width="600"/>
+</p>
+
+- ANOVA & MANOVA used to filter significant cases, followed by AIR and human review.
+
+---
+
+### 🔹 7. Metric Overview
+
+<p align="center">
+  <img src="images/ROUGE_BERT.png" alt="ROUGE & BERT Explanation" width="600"/>
+</p>
+
+- ROUGE: Measures **word-level** overlap  
+- BERTScore: Measures **semantic** similarity
+
+---
+
+### 🔹 8. ANOVA Results (ROUGE-1 F1)
+
+<p align="center">
+  <img src="images/ROUGE1_ANOVA.png" alt="ROUGE-1 ANOVA Table" width="600"/>
+</p>
+
+- Statistically significant difference in ROUGE-1 F1 scores between **white_male** and **white_female** (p = **0.023**).
+
+---
+
+### 🔹 9. Weighted MANOVA
+
+<p align="center">
+  <img src="images/Weighted_MANOVA.png" alt="Weighted MANOVA" width="600"/>
+</p>
+
+- Confirmed significant differences across groups using ROUGE-1, ROUGE-2, and BERT (p = **0.0076**).
 
 
 ## ✅ Conclusion
