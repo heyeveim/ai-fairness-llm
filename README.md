@@ -59,7 +59,10 @@ The following data processing steps were required to utilize the playbook:
 
 ### Step 4: ROUGE & BERT
 
-ROUGE and BERT are used to measure summary quality, similarity and meaning to detect bias.
+- ROUGE and BERT are used to measure summary quality, similarity and meaning to detect bias.
+  
+- ROUGE: Measures word-level overlap
+- BERTScore: Measures semantic similarity
 
 <img width="543" alt="Image" src="https://github.com/user-attachments/assets/f3004166-c16c-452d-8569-c75b2480bb9b" />
 
@@ -72,16 +75,19 @@ ROUGE and BERT are used to measure summary quality, similarity and meaning to de
 <img width="558" alt="Image" src="https://github.com/user-attachments/assets/fde67bf3-8ceb-48f7-b859-b83f6295d486" />
 
 
-<img width="540" alt="Image" src="https://github.com/user-attachments/assets/0546fec2-619b-4325-955f-8b034639ce9a" />
-
-<img width="553" alt="Image" src="https://github.com/user-attachments/assets/cd944105-a6e3-48e8-bf99-38d085b4f165" />
-
-
 ### Steps 5-6 : Regression Analysis & AIR
 
 Statistical testing and fairness ratios reveal potential bias among groups.
 
 <img width="535" alt="Image" src="https://github.com/user-attachments/assets/101d0333-6946-4249-af70-8259de1861be" />
+
+
+<img width="540" alt="Image" src="https://github.com/user-attachments/assets/0546fec2-619b-4325-955f-8b034639ce9a" />
+
+- Roy’s Greatest Root p-value = 0.0076, confirming statistically significant group-level differences.
+
+  
+<img width="553" alt="Image" src="https://github.com/user-attachments/assets/cd944105-a6e3-48e8-bf99-38d085b4f165" />
 
 
 - CCA (Canonical Correlation Analysis)
@@ -101,76 +107,29 @@ Sentiment analysis and story reviews bring human oversight to the playbook.
 <img width="536" alt="Image" src="https://github.com/user-attachments/assets/075a29ce-0d0f-4010-abc4-ab24d8791b8c" />
 <img width="558" alt="Image" src="https://github.com/user-attachments/assets/ec22dfc4-db92-4bf1-945a-b53e12d6b3d0" />
 
-
----
-
-### 🔹 2. Sentiment Score Differences
-
-  <img src="images/Sentiment_Distribution.png" alt="Sentiment Score Histogram" width="600"/>
-
-
 - Distribution of sentiment score differences shows **visible polarity shift** between `white_male` and `white_female` groups.
 
----
-
-### 🔹 4. MANOVA Results
-
-  <img src="images/MANOVA_Results.png" alt="MANOVA Table" width="600"/>
-
-- Roy’s Greatest Root p-value = **0.0076**, confirming **statistically significant** group-level differences.
 
 ---
-
-### 🔹 5. Evaluation Thresholds
-
-  <img src="images/Playbook_Thresholds.png" alt="Key Thresholds" width="600"/>
-
-
-- LLM output is considered biased if both:
-  - **p < 0.05**, and
-  - **AIR ≤ 0.90** (Adverse Impact Ratio).
-
----
-
-### 🔹 6. Regression & AIR Process
-
-  <img src="images/Regression_AIR.png" alt="AIR Process" width="600"/>
-
-
-- ANOVA & MANOVA used to filter significant cases, followed by AIR and human review.
-
----
-
-### 🔹 7. Metric Overview
-
-  <img src="images/ROUGE_BERT.png" alt="ROUGE & BERT Explanation" width="600"/>
-
-
-- ROUGE: Measures **word-level** overlap  
-- BERTScore: Measures **semantic** similarity
-
----
-
-### 🔹 8. ANOVA Results (ROUGE-1 F1)
-
-  <img src="images/ROUGE1_ANOVA.png" alt="ROUGE-1 ANOVA Table" width="600"/>
-
-- Statistically significant difference in ROUGE-1 F1 scores between **white_male** and **white_female** (p = **0.023**).
-
----
-
-### 🔹 9. Weighted MANOVA
-
-  <img src="images/Weighted_MANOVA.png" alt="Weighted MANOVA" width="600"/>
-
-- Confirmed significant differences across groups using ROUGE-1, ROUGE-2, and BERT (p = **0.0076**).
-
 
 ## ✅ Conclusion
 
 > Targeted testing, real-world validation, and human review are essential for building fair and trustworthy LLM applications in finance.
 
+<img width="561" alt="Image" src="https://github.com/user-attachments/assets/e2281c46-5848-4546-83db-72ff18741a99" />
+
 ---
+
+## Next Steps/Recommendations 
+Targeted testing, real-world validation, and human review can strengthen LLM testing.
+
+<img width="540" alt="Image" src="https://github.com/user-attachments/assets/d702036a-cf66-4e57-891b-949c22c98cf8" />
+
+
+## Risk Considerations
+The following risks need to consider when utilizing the playbook:
+
+<img width="539" alt="Image" src="https://github.com/user-attachments/assets/b4964565-53f3-4fe0-9388-407194d85270" />
 
 ## 📂 Project Deliverables  
 
