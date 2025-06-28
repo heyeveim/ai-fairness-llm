@@ -29,6 +29,20 @@ This project leverages a multi-step evaluation pipeline:
 
 ---
 
+## 📊 Key Findings
+
+- **Bias Detection**: Statistical testing (ANOVA, MANOVA, CCA) and AIR scoring revealed potential group-level bias in LLM-generated summaries, especially in sentiment tone and word similarity.
+- **Summary Quality**: ROUGE and BERTScore metrics showed performance variation across identity groups, highlighting inconsistencies in semantic meaning and precision.
+- **Sentiment Shifts**: Sentiment analysis uncovered tone discrepancies across protected classes — some summaries reflected subtle shifts in polarity and emotional framing.
+- **Human Oversight**: Manual review supported metric findings, emphasizing the importance of qualitative validation in fairness assessments.
+- **Deployment Risk**: Without proper fairness checks, LLMs risk amplifying bias in high-stakes financial contexts. Regulatory compliance and human-in-the-loop practices are critical.
+
+## ✅ Conclusion
+
+> Targeted testing, real-world validation, and human review are essential for building fair and trustworthy LLM applications in finance.
+
+---
+
 ## 📂 Project Deliverables  
 
 ### 1. 📄 Final Report (`.docx`)  
