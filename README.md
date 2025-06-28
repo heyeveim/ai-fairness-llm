@@ -25,7 +25,12 @@ This project leverages a multi-step evaluation pipeline:
 - **Statistical Analysis**: Run ANOVA, MANOVA, and Canonical Correlation to test for fairness violations.  
 - **AIR Calculation**: Determine whether deployment meets regulatory fairness thresholds.
 
-- <img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
+<img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
+
+<p align="center">
+  <img src="img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
+</p>
+
 
 ---
 
