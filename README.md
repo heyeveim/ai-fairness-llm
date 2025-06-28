@@ -37,9 +37,19 @@ This project leverages a multi-step evaluation pipeline:
 - **Human Oversight**: Manual review supported metric findings, emphasizing the importance of qualitative validation in fairness assessments.
 - **Deployment Risk**: Without proper fairness checks, LLMs risk amplifying bias in high-stakes financial contexts. Regulatory compliance and human-in-the-loop practices are critical.
 
+<img width="480" alt="Image" src="https://github.com/user-attachments/assets/4ef27994-4526-47c4-ba3d-1d6a9f7fb3b9" />
+
+<img width="560" alt="Image" src="https://github.com/user-attachments/assets/183e1ac4-f187-41f1-8f07-c56f8b1e69d4" />
+
+<img width="535" alt="Image" src="https://github.com/user-attachments/assets/8eab3ccd-6519-41f5-b098-ff85d0176dfe" />
+
+<img width="550" alt="Image" src="https://github.com/user-attachments/assets/4c92cb94-173a-4e38-938f-b3e5dfd39e76" />
+
+
 ## ✅ Conclusion
 
 > Targeted testing, real-world validation, and human review are essential for building fair and trustworthy LLM applications in finance.
+
 
 ---
 
