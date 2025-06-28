@@ -38,6 +38,11 @@ This diagram illustrates:
 - Conducted AIR evaluation and human review for flagged groups
 
 ---
+### Playbook Key Threshold 
+
+<img width="540" alt="Image" src="https://github.com/user-attachments/assets/dfd04acf-8f17-4059-8ccf-2a5b14806163" />
+
+---
 
 ## 📈 Key Findings
 
@@ -62,15 +67,16 @@ Statistical testing and fairness ratios reveal potential bias among groups.
 
 <img width="535" alt="Image" src="https://github.com/user-attachments/assets/101d0333-6946-4249-af70-8259de1861be" />
 
-  ## CCA (Canonical Correlation Analysis)
-    <img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
-
-      - The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
+> CCA (Canonical Correlation Analysis)
+  <img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
+  - The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
 
 ### Steps 7-8 : Sentiment Analysis & Human Review
 Sentiment analysis and story reviews bring human oversight to the playbook.
 
 <img width="536" alt="Image" src="https://github.com/user-attachments/assets/075a29ce-0d0f-4010-abc4-ab24d8791b8c" />
+
+
 
 ---
 
