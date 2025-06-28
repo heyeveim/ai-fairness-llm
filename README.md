@@ -99,7 +99,6 @@ Statistical testing and fairness ratios reveal potential bias among groups.
 Sentiment analysis and story reviews bring human oversight to the playbook.
 
 <img width="536" alt="Image" src="https://github.com/user-attachments/assets/075a29ce-0d0f-4010-abc4-ab24d8791b8c" />
-
 <img width="558" alt="Image" src="https://github.com/user-attachments/assets/ec22dfc4-db92-4bf1-945a-b53e12d6b3d0" />
 
 
