@@ -23,7 +23,9 @@ This project leverages a multi-step evaluation pipeline:
 - **Summary Generation**: Use **Cohere Command R via AWS Bedrock** to generate outputs.  
 - **Metric Evaluation**: Compute ROUGE, BERTScore, and sentiment metrics per identity group.  
 - **Statistical Analysis**: Run ANOVA, MANOVA, and Canonical Correlation to test for fairness violations.  
-- **AIR Calculation**: Determine whether deployment meets regulatory fairness thresholds.  
+- **AIR Calculation**: Determine whether deployment meets regulatory fairness thresholds.
+
+- <img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
 
 ---
 
