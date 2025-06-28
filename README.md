@@ -33,9 +33,8 @@ This project leverages a multi-step evaluation pipeline:
 
 ### 🔹 1. CCA (Canonical Correlation Analysis)
 
-<p align="center">
+
   <img src="images/CCA_Coefficients.png" alt="CCA Coefficients" width="600"/>
-</p>
 
 - The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
 
@@ -43,9 +42,8 @@ This project leverages a multi-step evaluation pipeline:
 
 ### 🔹 2. Methodology Pipeline
 
-<p align="center">
   <img src="images/Concept_Map.png" alt="Methodology Flowchart" width="600"/>
-</p>
+
 
 - Full evaluation pipeline from data filtering → LLM prompt generation → metric evaluation → statistical analysis.
 
@@ -53,9 +51,8 @@ This project leverages a multi-step evaluation pipeline:
 
 ### 🔹 3. Sentiment Score Differences
 
-<p align="center">
   <img src="images/Sentiment_Distribution.png" alt="Sentiment Score Histogram" width="600"/>
-</p>
+
 
 - Distribution of sentiment score differences shows **visible polarity shift** between `white_male` and `white_female` groups.
 
@@ -63,9 +60,7 @@ This project leverages a multi-step evaluation pipeline:
 
 ### 🔹 4. MANOVA Results
 
-<p align="center">
   <img src="images/MANOVA_Results.png" alt="MANOVA Table" width="600"/>
-</p>
 
 - Roy’s Greatest Root p-value = **0.0076**, confirming **statistically significant** group-level differences.
 
@@ -73,9 +68,8 @@ This project leverages a multi-step evaluation pipeline:
 
 ### 🔹 5. Evaluation Thresholds
 
-<p align="center">
   <img src="images/Playbook_Thresholds.png" alt="Key Thresholds" width="600"/>
-</p>
+
 
 - LLM output is considered biased if both:
   - **p < 0.05**, and
@@ -85,9 +79,8 @@ This project leverages a multi-step evaluation pipeline:
 
 ### 🔹 6. Regression & AIR Process
 
-<p align="center">
   <img src="images/Regression_AIR.png" alt="AIR Process" width="600"/>
-</p>
+
 
 - ANOVA & MANOVA used to filter significant cases, followed by AIR and human review.
 
@@ -95,9 +88,8 @@ This project leverages a multi-step evaluation pipeline:
 
 ### 🔹 7. Metric Overview
 
-<p align="center">
   <img src="images/ROUGE_BERT.png" alt="ROUGE & BERT Explanation" width="600"/>
-</p>
+
 
 - ROUGE: Measures **word-level** overlap  
 - BERTScore: Measures **semantic** similarity
@@ -106,9 +98,7 @@ This project leverages a multi-step evaluation pipeline:
 
 ### 🔹 8. ANOVA Results (ROUGE-1 F1)
 
-<p align="center">
   <img src="images/ROUGE1_ANOVA.png" alt="ROUGE-1 ANOVA Table" width="600"/>
-</p>
 
 - Statistically significant difference in ROUGE-1 F1 scores between **white_male** and **white_female** (p = **0.023**).
 
@@ -116,9 +106,7 @@ This project leverages a multi-step evaluation pipeline:
 
 ### 🔹 9. Weighted MANOVA
 
-<p align="center">
   <img src="images/Weighted_MANOVA.png" alt="Weighted MANOVA" width="600"/>
-</p>
 
 - Confirmed significant differences across groups using ROUGE-1, ROUGE-2, and BERT (p = **0.0076**).
 
@@ -126,7 +114,6 @@ This project leverages a multi-step evaluation pipeline:
 ## ✅ Conclusion
 
 > Targeted testing, real-world validation, and human review are essential for building fair and trustworthy LLM applications in finance.
-
 
 ---
 
