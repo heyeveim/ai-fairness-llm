@@ -81,9 +81,14 @@ Statistical testing and fairness ratios reveal potential bias among groups.
 
 <img width="535" alt="Image" src="https://github.com/user-attachments/assets/101d0333-6946-4249-af70-8259de1861be" />
 
-> CCA (Canonical Correlation Analysis)
+
+- CCA (Canonical Correlation Analysis)
+-  The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
+
   <img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
-  - The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
+
+  <img width="556" alt="Image" src="https://github.com/user-attachments/assets/b872c32f-116b-439f-8784-65fb7628273a" />
+ 
 
 ### Steps 7-8 : Sentiment Analysis & Human Review
 Sentiment analysis and story reviews bring human oversight to the playbook.
