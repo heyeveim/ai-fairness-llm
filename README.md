@@ -16,16 +16,27 @@ Conducted in partnership with **Ernst & Young (EY)** and **The George Washington
 
 ---
 
-## 🧠 Methodology Overview  
-This project leverages a multi-step evaluation pipeline:
+## 🧠 Playbook Methodology Overview  
 
-- **Prompt Engineering**: Craft identity-sensitive inputs to test for fairness across demographics.  
-- **Summary Generation**: Use **Cohere Command R via AWS Bedrock** to generate outputs.  
-- **Metric Evaluation**: Compute ROUGE, BERTScore, and sentiment metrics per identity group.  
-- **Statistical Analysis**: Run ANOVA, MANOVA, and Canonical Correlation to test for fairness violations.  
-- **AIR Calculation**: Determine whether deployment meets regulatory fairness thresholds.
+## 🧪 Methodology Overview
+To evaluate fairness in LLM-generated summaries, we designed a robust 8-step framework. The methodology includes dataset preparation, summarization, metric evaluation, statistical testing, AIR fairness check, and human review.
+
+<img width="542" alt="Image" src="https://github.com/user-attachments/assets/b62f7a49-8963-4eea-ab39-e8e3029a2457" />
+
+### 🔍 Detailed Evaluation Flow
+The following flowchart outlines the **full step-by-step process**, from use case definition to final fairness assessment:
 
 <img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
+
+This diagram illustrates:
+
+- How we selected stories and models
+- Applied regex filtering for financial content
+- Used Cohere to generate identity-controlled summaries
+- Evaluated using ROUGE & BERTScore
+- Ran statistical tests (ANOVA, MANOVA)
+- Conducted AIR evaluation and human review for flagged groups
+
 
 ---
 
@@ -34,22 +45,13 @@ This project leverages a multi-step evaluation pipeline:
 ### 🔹 1. CCA (Canonical Correlation Analysis)
 
 
-  <img src="images/CCA_Coefficients.png" alt="CCA Coefficients" width="600"/>
+<img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
 
 - The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
 
 ---
 
-### 🔹 2. Methodology Pipeline
-
-  <img src="images/Concept_Map.png" alt="Methodology Flowchart" width="600"/>
-
-
-- Full evaluation pipeline from data filtering → LLM prompt generation → metric evaluation → statistical analysis.
-
----
-
-### 🔹 3. Sentiment Score Differences
+### 🔹 2. Sentiment Score Differences
 
   <img src="images/Sentiment_Distribution.png" alt="Sentiment Score Histogram" width="600"/>
 
