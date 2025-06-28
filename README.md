@@ -89,6 +89,9 @@ Statistical testing and fairness ratios reveal potential bias among groups.
 
   <img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
 
+
+- AIR Result:
+  
   <img width="556" alt="Image" src="https://github.com/user-attachments/assets/b872c32f-116b-439f-8784-65fb7628273a" />
  
 
