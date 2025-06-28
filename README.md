@@ -69,7 +69,7 @@ ROUGE and BERT are used to measure summary quality, similarity and meaning to de
 <img width="558" alt="Image" src="https://github.com/user-attachments/assets/fde67bf3-8ceb-48f7-b859-b83f6295d486" />
 
 
-<img width="545" alt="Image" src="https://github.com/user-attachments/assets/8931d06f-fd57-4505-a9e8-19ed909f4ff6" />
+<img width="540" alt="Image" src="https://github.com/user-attachments/assets/0546fec2-619b-4325-955f-8b034639ce9a" />
 
 
 ### Steps 5-6 : Regression Analysis & AIR
