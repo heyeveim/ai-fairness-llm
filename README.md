@@ -48,7 +48,12 @@ This diagram illustrates:
 
 ### Steps 1-3: Preparation
 
-<img width="480" alt="Image" src="https://github.com/user-attachments/assets/67e88ef6-e379-42b7-a470-042e18b6633e" />
+The first 3 steps lay the foundation: Prepare the data, choose the model,and prompt the LLM.
+<img width="545" alt="Image" src="https://github.com/user-attachments/assets/160e8480-1b22-4be8-af76-5f7dac23c07e" />
+
+The following data processing steps were required to utilize the playbook:
+<img width="542" alt="Image" src="https://github.com/user-attachments/assets/ae5f700c-e8ef-466b-bfe4-a92bf5255070" />
+
 
 ### Step 4: ROUGE & BERT
 
