@@ -64,6 +64,9 @@ ROUGE and BERT are used to measure summary quality, similarity and meaning to de
 <img width="543" alt="Image" src="https://github.com/user-attachments/assets/f3004166-c16c-452d-8569-c75b2480bb9b" />
 
 
+- ROUGE-1 F1 scores showed statistically significant bias (p = 0.023) between white_male2 and white_female groups.
+- MANOVA revealed overall group-level differences (Roy’s root p = 0.0076).
+
 <img width="469" alt="Image" src="https://github.com/user-attachments/assets/793a4c9a-f8a2-4df6-aeb1-cd047088d780" />
 <img width="463" alt="Image" src="https://github.com/user-attachments/assets/ce47b1b5-bcd5-4f5e-94dd-769ae5d01726" />
 <img width="558" alt="Image" src="https://github.com/user-attachments/assets/fde67bf3-8ceb-48f7-b859-b83f6295d486" />
