@@ -16,17 +16,17 @@ Conducted in partnership with **Ernst & Young (EY)** and **The George Washington
 
 ---
 
-## 🧠 Playbook Methodology Overview  
-
 ## 🧪 Methodology Overview
 To evaluate fairness in LLM-generated summaries, we designed a robust 8-step framework. The methodology includes dataset preparation, summarization, metric evaluation, statistical testing, AIR fairness check, and human review.
 
 <img width="542" alt="Image" src="https://github.com/user-attachments/assets/b62f7a49-8963-4eea-ab39-e8e3029a2457" />
 
+
 ### 🔍 Detailed Evaluation Flow
 The following flowchart outlines the **full step-by-step process**, from use case definition to final fairness assessment:
 
 <img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
+
 
 This diagram illustrates:
 
@@ -37,17 +37,40 @@ This diagram illustrates:
 - Ran statistical tests (ANOVA, MANOVA)
 - Conducted AIR evaluation and human review for flagged groups
 
-
 ---
 
 ## 📈 Key Findings
 
-### 🔹 1. CCA (Canonical Correlation Analysis)
+### Steps 1-3: Preparation
+
+<img width="480" alt="Image" src="https://github.com/user-attachments/assets/67e88ef6-e379-42b7-a470-042e18b6633e" />
+
+### Step 4: ROUGE & BERT
+
+ROUGE and BERT are used to measure summary quality, similarity and meaning to detect bias.
+
+<img width="543" alt="Image" src="https://github.com/user-attachments/assets/f3004166-c16c-452d-8569-c75b2480bb9b" />
+
+<img width="469" alt="Image" src="https://github.com/user-attachments/assets/793a4c9a-f8a2-4df6-aeb1-cd047088d780" />
+<img width="463" alt="Image" src="https://github.com/user-attachments/assets/ce47b1b5-bcd5-4f5e-94dd-769ae5d01726" />
+<img width="558" alt="Image" src="https://github.com/user-attachments/assets/fde67bf3-8ceb-48f7-b859-b83f6295d486" />
 
 
-<img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
+### Steps 5-6 : Regression Analysis & AIR
 
-- The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
+Statistical testing and fairness ratios reveal potential bias among groups.
+
+<img width="535" alt="Image" src="https://github.com/user-attachments/assets/101d0333-6946-4249-af70-8259de1861be" />
+
+  ## CCA (Canonical Correlation Analysis)
+    <img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
+
+      - The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
+
+### Steps 7-8 : Sentiment Analysis & Human Review
+Sentiment analysis and story reviews bring human oversight to the playbook.
+
+<img width="536" alt="Image" src="https://github.com/user-attachments/assets/075a29ce-0d0f-4010-abc4-ab24d8791b8c" />
 
 ---
 
