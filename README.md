@@ -29,7 +29,10 @@ To evaluate fairness in LLM-generated summaries, we designed a robust 8-step fra
 ### 🔍 Detailed Evaluation Flow
 The following flowchart outlines the **full step-by-step process**, from use case definition to final fairness assessment:
 
-<img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
+<p align="center">
+  <img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
+  <br />
+</p>
 
 
 This diagram illustrates:
@@ -44,7 +47,10 @@ This diagram illustrates:
 ---
 ### Playbook Key Threshold 
 
-<img width="540" alt="Image" src="https://github.com/user-attachments/assets/dfd04acf-8f17-4059-8ccf-2a5b14806163" />
+<p align="center">
+  <img width="540" alt="Image" src="https://github.com/user-attachments/assets/dfd04acf-8f17-4059-8ccf-2a5b14806163" />
+  <br />
+</p>
 
 ---
 
@@ -54,11 +60,17 @@ This diagram illustrates:
 
 The first 3 steps lay the foundation: Prepare the data, choose the model,and prompt the LLM.
 
-<img width="545" alt="Image" src="https://github.com/user-attachments/assets/160e8480-1b22-4be8-af76-5f7dac23c07e" />
+<p align="center">
+  <img width="545" alt="Image" src="https://github.com/user-attachments/assets/160e8480-1b22-4be8-af76-5f7dac23c07e" />
+  <br />
+</p>
 
 The following data processing steps were required to utilize the playbook:
 
-<img width="542" alt="Image" src="https://github.com/user-attachments/assets/ae5f700c-e8ef-466b-bfe4-a92bf5255070" />
+<p align="center">
+  <img width="542" alt="Image" src="https://github.com/user-attachments/assets/ae5f700c-e8ef-466b-bfe4-a92bf5255070" />
+  <br />
+</p>
 
 
 ### Step 4: ROUGE & BERT
@@ -68,8 +80,10 @@ The following data processing steps were required to utilize the playbook:
 - ROUGE: Measures word-level overlap
 - BERTScore: Measures semantic similarity
 
-<img width="543" alt="Image" src="https://github.com/user-attachments/assets/f3004166-c16c-452d-8569-c75b2480bb9b" />
-
+<p align="center">
+  <img width="543" alt="Image" src="https://github.com/user-attachments/assets/f3004166-c16c-452d-8569-c75b2480bb9b" />
+  <br />
+</p>
 
 - ROUGE-1 F1 scores showed statistically significant bias (p = 0.023) between white_male2 and white_female groups.
 - MANOVA revealed overall group-level differences (Roy’s root p = 0.0076).
@@ -83,26 +97,41 @@ The following data processing steps were required to utilize the playbook:
 
 Statistical testing and fairness ratios reveal potential bias among groups.
 
-<img width="535" alt="Image" src="https://github.com/user-attachments/assets/101d0333-6946-4249-af70-8259de1861be" />
+<p align="center">
+  <img width="535" alt="Image" src="https://github.com/user-attachments/assets/101d0333-6946-4249-af70-8259de1861be" />
+  <br />
+</p>
 
 
-<img width="540" alt="Image" src="https://github.com/user-attachments/assets/0546fec2-619b-4325-955f-8b034639ce9a" />
+<p align="center">
+  <img width="540" alt="Image" src="https://github.com/user-attachments/assets/0546fec2-619b-4325-955f-8b034639ce9a" />
+  <br />
+</p>
 
 - Roy’s Greatest Root p-value = 0.0076, confirming statistically significant group-level differences.
 
   
-<img width="553" alt="Image" src="https://github.com/user-attachments/assets/cd944105-a6e3-48e8-bf99-38d085b4f165" />
+<p align="center">
+  <img width="553" alt="Image" src="https://github.com/user-attachments/assets/cd944105-a6e3-48e8-bf99-38d085b4f165" />
+  <br />
+</p>
 
 
 - CCA (Canonical Correlation Analysis)
 -  The strongest canonical correlation (0.1664) indicates a **weak to moderate relationship** between evaluation metrics and demographic groups.
 
+<p align="center">
   <img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
+  <br />
+</p>
 
 
 - AIR Result:
-  
+
+<p align="center">
   <img width="556" alt="Image" src="https://github.com/user-attachments/assets/b872c32f-116b-439f-8784-65fb7628273a" />
+  <br />
+</p>
  
 
 ### Steps 7-8 : Sentiment Analysis & Human Review
