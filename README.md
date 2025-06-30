@@ -19,7 +19,11 @@ Conducted in partnership with **Ernst & Young (EY)** and **The George Washington
 ## 🧪 Methodology Overview
 To evaluate fairness in LLM-generated summaries, we designed a robust 8-step framework. The methodology includes dataset preparation, summarization, metric evaluation, statistical testing, AIR fairness check, and human review.
 
-<img width="542" alt="Image" src="https://github.com/user-attachments/assets/b62f7a49-8963-4eea-ab39-e8e3029a2457" />
+<p align="center">
+  <img width="542" alt="Image" src="https://github.com/user-attachments/assets/b62f7a49-8963-4eea-ab39-e8e3029a2457" />
+  <br />
+</p>
+
 
 
 ### 🔍 Detailed Evaluation Flow
