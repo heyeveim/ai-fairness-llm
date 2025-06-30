@@ -137,8 +137,17 @@ Statistical testing and fairness ratios reveal potential bias among groups.
 ### Steps 7-8 : Sentiment Analysis & Human Review
 Sentiment analysis and story reviews bring human oversight to the playbook.
 
-<img width="536" alt="Image" src="https://github.com/user-attachments/assets/075a29ce-0d0f-4010-abc4-ab24d8791b8c" />
-<img width="558" alt="Image" src="https://github.com/user-attachments/assets/ec22dfc4-db92-4bf1-945a-b53e12d6b3d0" />
+
+<p align="center">
+  <img width="536" alt="Image" src="https://github.com/user-attachments/assets/075a29ce-0d0f-4010-abc4-ab24d8791b8c" />
+  <br />
+</p>
+
+
+<p align="center">
+  <img width="558" alt="Image" src="https://github.com/user-attachments/assets/ec22dfc4-db92-4bf1-945a-b53e12d6b3d0" />
+  <br />
+</p>
 
 - Distribution of sentiment score differences shows **visible polarity shift** between `white_male` and `white_female` groups.
 
@@ -149,20 +158,29 @@ Sentiment analysis and story reviews bring human oversight to the playbook.
 
 > Targeted testing, real-world validation, and human review are essential for building fair and trustworthy LLM applications in finance.
 
-<img width="561" alt="Image" src="https://github.com/user-attachments/assets/e2281c46-5848-4546-83db-72ff18741a99" />
+<p align="center">
+  <img width="561" alt="Image" src="https://github.com/user-attachments/assets/e2281c46-5848-4546-83db-72ff18741a99" />
+  <br />
+</p>
 
 ---
 
 ## Next Steps/Recommendations 
 Targeted testing, real-world validation, and human review can strengthen LLM testing.
 
-<img width="540" alt="Image" src="https://github.com/user-attachments/assets/d702036a-cf66-4e57-891b-949c22c98cf8" />
+<p align="center">
+  <img width="540" alt="Image" src="https://github.com/user-attachments/assets/d702036a-cf66-4e57-891b-949c22c98cf8" />
+  <br />
+</p>
 
 
 ## Risk Considerations
 The following risks need to consider when utilizing the playbook:
 
-<img width="539" alt="Image" src="https://github.com/user-attachments/assets/b4964565-53f3-4fe0-9388-407194d85270" />
+<p align="center">
+  <img width="539" alt="Image" src="https://github.com/user-attachments/assets/b4964565-53f3-4fe0-9388-407194d85270" />
+  <br />
+</p>
 
 ## 📂 Project Deliverables  
 
