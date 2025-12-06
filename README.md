@@ -34,8 +34,8 @@ This project quantifies those invisible shifts and shows what must be checked be
 <img width="558" alt="Image" src="https://github.com/user-attachments/assets/fde67bf3-8ceb-48f7-b859-b83f6295d486" />
 
 <p style="margin-bottom:40px;">
-........................................................................................................................
-  
+<p align="center"> ........................................................................................................................
+</p>  
 #### ✔ MANOVA confirmed structured group-level variance 
 
     • Roy’s Greatest Root p = 0.0076
