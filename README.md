@@ -69,6 +69,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 <br>
 
+  --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 
 #### ✔ AIR (Adverse Impact Ratio) flagged fairness gaps
 
@@ -83,6 +84,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 <br>
 
+  --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
 
 #### ✔ Sentiment polarity drift occurred even with controlled content
 
