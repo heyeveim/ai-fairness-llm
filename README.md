@@ -1,23 +1,109 @@
 # 🤖 AI-Driven Fairness and Summarization in LLMs for Financial Institutions
 
-## ⚙️ Problem Statement  
-This project examines the fairness and summarization quality of Large Language Models (LLMs) in the context of financial institutions. As AI systems are increasingly used in finance for tasks like customer communication and decision-making, ensuring fairness and explainability is critical. We aim to evaluate how identity-sensitive inputs affect LLM outputs and propose a robust evaluation framework.
+## ⚙️ Fairness & Summarization Reliability in LLMs for Financial Institutions 
 
-Conducted in partnership with **Ernst & Young (EY)** and **The George Washington University**.
+A practical evaluation of how identity-sensitive inputs influence LLM summaries in financial workflows.
+Developed in collaboration with **Ernst & Young (EY)** and The **George Washington University**.
 
----
-
-## 🎯 Project Objectives  
-1. **Evaluate LLM-generated summaries** across identity groups using prompt engineering.  
-2. **Measure fairness and bias** using quantitative metrics like ROUGE, BERTScore, and sentiment polarity.  
-3. **Conduct statistical tests** (e.g., ANOVA, MANOVA, CCA) to determine significant group-based disparities.  
-4. **Calculate AIR (Adverse Impact Ratio)** to assess fairness thresholds and guide deployment readiness.  
-5. **Provide actionable recommendations** for deploying LLMs responsibly in finance.
+This project focuses on fairness, stability, and deployment risk in AI systems used by financial institutions.
 
 ---
 
-## 🧪 Methodology Overview
-To evaluate fairness in LLM-generated summaries, we designed a robust 8-step framework. The methodology includes dataset preparation, summarization, metric evaluation, statistical testing, AIR fairness check, and human review.
+
+## 1. Why This Project Matters
+
+Financial institutions increasingly rely on AI to summarize complex narratives and interact with customers.
+
+The risk:
+Two customers with identical financial behavior may receive different outputs simply because identity terms changed.
+
+This project quantifies those invisible shifts and shows what must be checked before deploying LLMs in regulated environments.
+
+---
+
+## 2. What This Project Actually Shows (Key Insights) 
+
+✔ Identity terms alone produced statistically meaningful ROUGE-1 F1 shifts
+    • Example: white_male vs. white_female, p = 0.023
+    • Subtle but consistent drift → possible model-level issue
+
+✔ MANOVA confirmed structured group-level variance
+    • Roy’s Greatest Root p = 0.0076
+    • Variance pattern is systematic, not noise
+
+✔ CCA revealed weak but consistent relationships
+    • Strongest canonical correlation ≈ 0.1664
+    • Identity terms correlate with evaluation metric movements
+
+✔ AIR (Adverse Impact Ratio) flagged fairness gaps
+    • Certain groups fell below acceptable thresholds
+    • Implication: potential regulatory scrutiny
+
+✔ Sentiment polarity drift occurred even with controlled content
+    • Same story, different identity → tonal shifts
+    • Risky for customer communication and perceived fairness
+
+👉 Overall: High model performance doesn’t guarantee stable or fair summarization.
+
+This project demonstrates exactly where and how the drift happens.
+
+## 3. How the Model Was Evaulated
+
+The evaluation framework mirrors a real financial Model Validation workflow, not a simple metric comparison.
+
+**Full Framework:**
+
+**1.** Define financial use case
+
+**2.** Collect and clean narratives
+
+**3.** Design identity-controlled prompts
+
+**4.** Generate summaries with Cohere
+
+**5.** Evaluate with ROUGE + BERTScore
+
+**6.** Run ANOVA, MANOVA, CCA
+
+**7.** Perform AIR fairness checks
+
+**8.** Apply sentiment and human review for final assessment
+
+---
+
+## 4. Repository Structure 
+A structure designed so hiring managers instantly understand your workflow:
+
+## 📁 Repository Structure
+
+```text
+notebooks/
+    01_preprocessing.ipynb
+    02_summary_generation.ipynb
+    03_metric_evaluation.ipynb
+    04_statistical_tests.ipynb
+    05_sentiment_air_review.ipynb
+
+src/
+    preprocessing.py
+    summarize.py
+    metrics.py
+    statistics_tests.py
+    fairness_air.py
+    visualizations.py
+
+data/
+    stories_clean.csv
+    identity_variants.csv
+
+This immediately signals:
+
+**You understand modular code, reproducibility, and analytical workflow design.**
+
+---
+
+## 5. Core Code Snippets (Just Enough to Show Competence)
+Summary generation
 
 <p align="center">
   <img width="542" alt="Image" src="https://github.com/user-attachments/assets/b62f7a49-8963-4eea-ab39-e8e3029a2457" />
