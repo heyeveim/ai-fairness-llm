@@ -47,8 +47,9 @@ This project quantifies those invisible shifts and shows what must be checked be
   <img width="540" alt="Image" src="https://github.com/user-attachments/assets/0546fec2-619b-4325-955f-8b034639ce9a" />
   <br />
 </p>
-<p style="margin-bottom:40px;">........................................................................................................................</p> 
 
+<p align="center"> ........................................................................................................................
+</p>  
 #### ✔ CCA revealed weak but consistent relationships
 
     • Strongest canonical correlation ≈ 0.1664
