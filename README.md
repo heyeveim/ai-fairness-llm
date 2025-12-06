@@ -49,7 +49,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 </p>
 
 <p align="center"> ..............................................................................................................................................................................................
-</p>  
+</p>   
 
 #### ✔ CCA revealed weak but consistent relationships
 
@@ -61,6 +61,7 @@ This project quantifies those invisible shifts and shows what must be checked be
   <img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
   <br />
 </p>
+
 <p align="center"> ..............................................................................................................................................................................................
 </p>   
 
