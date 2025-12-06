@@ -237,6 +237,12 @@ This immediately signals:
 
 - Human review remains irreplaceable for high-stakes deployments.
 
+<p align="center">
+  <img width="561" alt="Image" src="https://github.com/user-attachments/assets/e2281c46-5848-4546-83db-72ff18741a99" />
+  <br />
+ </p>
+
+
 ---
 
 ## 9. What I Learned
