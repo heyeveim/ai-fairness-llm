@@ -24,7 +24,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 ## 2. What This Project Actually Shows (Key Insights) 
 
-<h3>✔ Identity terms alone produced statistically meaningful ROUGE-1 F1 shifts</h3>
+#### ✔ Identity terms alone produced statistically meaningful ROUGE-1 F1 shifts
 
     • Example: white_male vs. white_female, p = 0.023
     • Subtle but consistent drift → possible model-level issue
@@ -38,7 +38,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 <br>
     
-<span style="font-size:20px;"> ✔ MANOVA confirmed structured group-level variance </span>
+✔ MANOVA confirmed structured group-level variance 
 
     • Roy’s Greatest Root p = 0.0076
     • Variance pattern is systematic, not noise
