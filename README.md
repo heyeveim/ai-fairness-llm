@@ -50,6 +50,8 @@ This project quantifies those invisible shifts and shows what must be checked be
 </p>
 
 
+<br>
+
 ✔ CCA revealed weak but consistent relationships
 
     • Strongest canonical correlation ≈ 0.1664
@@ -62,6 +64,9 @@ This project quantifies those invisible shifts and shows what must be checked be
 </p>
 
 
+<br>
+
+
 ✔ AIR (Adverse Impact Ratio) flagged fairness gaps
 
     • Certain groups fell below acceptable thresholds
@@ -71,6 +76,10 @@ This project quantifies those invisible shifts and shows what must be checked be
       <img width="556" alt="Image" src="https://github.com/user-attachments/assets/b872c32f-116b-439f-8784-65fb7628273a" />
       <br />
     </p>
+
+
+<br>
+
 
 ✔ Sentiment polarity drift occurred even with controlled content
 
