@@ -51,7 +51,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 👉 Overall: High model performance doesn’t guarantee stable or fair summarization.
 
-    This project demonstrates exactly where and how the drift happens.
+This project demonstrates exactly where and how the drift happens.
 
 
 ## 3. How the Model Was Evaulated
