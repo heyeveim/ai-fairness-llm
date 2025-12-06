@@ -115,7 +115,6 @@ This immediately signals:
 ### Summary generation: 
 
 ```text
-    notebooks/
     response = co.summarize(
         text=story,
         model="command-r",
@@ -145,6 +144,67 @@ This immediately signals:
     )
     print(manova.mv_test())
 ```
+
+---
+
+## 6. Key Findings
+
+
+- Structural bias exists even when aggregate model performance looks stable.
+
+- Identity-only changes cause measurable drift in summary quality.
+
+- Some groups consistently fall below AIR thresholds.
+
+- Fairness cannot rely on metrics alone. Narrative-level review is essential.
+- 
+---
+
+## 7. Tools & Stack
+
+**LLM API** : Cohere Command R (AWS Bedrock)
+**Metrics**: ROUGE, BERTScore
+**NLP**: TextBlob
+**Stats**: scipy, statsmodels, sklearn
+**Environment**: Python 3.9, Jupyter Notebook
+
+---
+
+## 8. Practical Takeaways for Financial Institutions
+
+- Summary quality must be evaluated per identity group, not just overall.
+
+- Bias often hides behind high accuracy or clean metrics.
+
+- AIR combined with MANOVA provides a defensible fairness evaluation for regulated environments.
+
+- Human review remains irreplaceable for high-stakes deployments.
+
+
+---
+
+## 9. What I Learned
+
+This project reinforced that in finance, the real challenge isn’t just getting a correct answer.
+It’s ensuring consistent reasoning across every customer profile.
+Even small summary drift can influence customer trust, regulatory exposure, and communication clarity.
+
+The goal wasn’t simply to test a model.
+
+It was to understand where it wobbles, why it happens, and how to measure it with structure and discipline.
+
+
+---
+
+## 10. Deliverables: 
+
+- Final Report (.docx)
+
+- Executive Presentation (.pptx)
+
+- Reproducible Jupyter Notebooks
+
+- Cleaned datasets and helper scripts
 
 
 # Summary generation: 
