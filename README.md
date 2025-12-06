@@ -36,6 +36,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 <p style="margin-bottom:40px;">
 <p align="center"> ........................................................................................................................
 </p>  
+
 #### ✔ MANOVA confirmed structured group-level variance 
 
     • Roy’s Greatest Root p = 0.0076
@@ -46,7 +47,7 @@ This project quantifies those invisible shifts and shows what must be checked be
   <img width="540" alt="Image" src="https://github.com/user-attachments/assets/0546fec2-619b-4325-955f-8b034639ce9a" />
   <br />
 </p>
-........................................................................................................................
+<p style="margin-bottom:40px;">........................................................................................................................</p> 
 
 #### ✔ CCA revealed weak but consistent relationships
 
@@ -58,7 +59,7 @@ This project quantifies those invisible shifts and shows what must be checked be
   <img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
   <br />
 </p>
-........................................................................................................................
+<p style="margin-bottom:40px;">........................................................................................................................</p> 
 
 #### ✔ AIR (Adverse Impact Ratio) flagged fairness gaps
 
@@ -69,7 +70,7 @@ This project quantifies those invisible shifts and shows what must be checked be
       <img width="556" alt="Image" src="https://github.com/user-attachments/assets/b872c32f-116b-439f-8784-65fb7628273a" />
       <br />
     </p>
-........................................................................................................................
+<p style="margin-bottom:40px;">........................................................................................................................</p> 
 
 #### ✔ Sentiment polarity drift occurred even with controlled content
 
