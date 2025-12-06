@@ -249,15 +249,19 @@ data/
 
 ## 9. What I Learned
 
-This project changed the way I look at model behavior in financial systems.<br> Once I started comparing summaries across identity groups, it became clear that metrics alone don’t tell the whole story. A model can look strong on ROUGE or BERTScore, yet still show small directional drift that matters when decisions or customer communication sit on top of it.
+- This project changed the way I look at model behavior in financial systems.<br> Once I started comparing summaries across identity groups, it became clear that metrics alone don’t tell the whole story. A model can look strong on ROUGE or BERTScore, yet still show small directional drift that matters when decisions or customer communication sit on top of it.
 
-What stood out most to me was how **quiet** the patterns were.<br> A slight polarity shift or a subtle change in emphasis wasn’t obvious at first, but once I mapped them across groups, the consistency of the drift became the signal. That’s when the work started to feel less like NLP evaluation and more like **risk analysis** finding the small discrepancies that compound into downstream impact if nobody catches them.
 
-Building the framework pushed me to think like a validator:<br> stress the model, isolate the variables, and check whether its behavior stays stable when the inputs aren’t convenient. Incorporating MANOVA, AIR thresholds, and sentiment deltas made me realize how important it is to test models the way they’ll actually be used, not just the way they perform in ideal conditions.
+- What stood out most to me was how **quiet** the patterns were.<br> A slight polarity shift or a subtle change in emphasis wasn’t obvious at first, but once I mapped them across groups, the consistency of the drift became the signal. That’s when the work started to feel less like NLP evaluation and more like **risk analysis** finding the small discrepancies that compound into downstream impact if nobody catches them.
 
-What I took away is simple:<br>I enjoy the work of making systems reliable.<br>I like breaking apart behavior, tracing patterns, and figuring out where inconsistencies start before they turn into operational or regulatory risk. And the more high-stakes the environment, the more my structure-first, signal-vs-noise mindset actually becomes useful.
 
-This project made it clear that my strengths line up well with roles where stability, consistency, and clear reasoning matter whether that’s in payments, model risk, or broader financial AI. It confirmed that I’m drawn to environments where keeping a system steady isn’t a background task; it’s the core of the job.
+- Building the framework pushed me to think like a validator:<br> stress the model, isolate the variables, and check whether its behavior stays stable when the inputs aren’t convenient. Incorporating MANOVA, AIR thresholds, and sentiment deltas made me realize how important it is to test models the way they’ll actually be used, not just the way they perform in ideal conditions.
+
+
+- What I took away is simple:<br>I enjoy the work of making systems reliable.<br>I like breaking apart behavior, tracing patterns, and figuring out where inconsistencies start before they turn into operational or regulatory risk. And the more high-stakes the environment, the more my structure-first, signal-vs-noise mindset actually becomes useful.
+
+
+- This project made it clear that my strengths line up well with roles where stability, consistency, and clear reasoning matter whether that’s in payments, model risk, or broader financial AI. It confirmed that I’m drawn to environments where keeping a system steady isn’t a background task; it’s the core of the job.
 
 ---
 
