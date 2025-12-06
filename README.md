@@ -53,7 +53,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 <br>
 
-  --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- --- 
+............................................................
 
 #### ✔ CCA revealed weak but consistent relationships
 
