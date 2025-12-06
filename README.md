@@ -33,7 +33,10 @@ This project quantifies those invisible shifts and shows what must be checked be
 <img width="463" alt="Image" src="https://github.com/user-attachments/assets/ce47b1b5-bcd5-4f5e-94dd-769ae5d01726" />
 <img width="558" alt="Image" src="https://github.com/user-attachments/assets/fde67bf3-8ceb-48f7-b859-b83f6295d486" />
 
-<p>
+<p style="margin-bottom:40px;">
+
+
+</p>
     
 ✔ MANOVA confirmed structured group-level variance
 
