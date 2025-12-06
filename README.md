@@ -112,6 +112,12 @@ The evaluation framework mirrors a real financial Model Validation workflow, not
   <br />
 </p>
 
+<p align="center">
+  <img width="535" alt="Image" src="https://github.com/user-attachments/assets/101d0333-6946-4249-af70-8259de1861be" />
+  <br />
+ </p>
+
+
 
 **Full Framework:**
 
