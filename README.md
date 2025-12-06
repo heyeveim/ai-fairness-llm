@@ -162,10 +162,6 @@ data/
     identity_variants.csv
 ```
 
-This immediately signals:
-
-**You understand modular code, reproducibility, and analytical workflow design.**
-
 ---
 
 ## 5. Core Code Snippets (Just Enough to Show Competence)
