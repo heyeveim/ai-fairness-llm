@@ -99,7 +99,7 @@ This project demonstrates exactly where and how the drift happens.
 
 The evaluation framework mirrors a real financial Model Validation workflow, not a simple metric comparison.
 
-The following flowchart outlines the **full step-by-step process**, from use case definition to final fairness assessment:
+**full step-by-step process**:
 
 <p align="center">
   <img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
