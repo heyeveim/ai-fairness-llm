@@ -160,15 +160,15 @@ This immediately signals:
 
 ## 7. Tools & Stack
 
-**LLM API** : Cohere Command R (AWS Bedrock)
+**LLM API** : Cohere Command R via **AWS Bedrock**  
 
 **Metrics**: ROUGE, BERTScore
 
 **NLP**: TextBlob
 
-**Stats**: scipy, statsmodels, sklearn
+**Stats**: `scipy`, `statsmodels`, `sklearn`, `pandas`, `matplotlib` 
 
-**Environment**: Python 3.9, Jupyter Notebook
+**Environment**: Jupyter Notebook (Python 3.9)
 
 ---
 
