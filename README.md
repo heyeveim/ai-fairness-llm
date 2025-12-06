@@ -84,7 +84,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 <p align="center">
   <img width="558" alt="Image" src="https://github.com/user-attachments/assets/ec22dfc4-db92-4bf1-945a-b53e12d6b3d0" />
   <br />
-</p>
+    </p>
 
 👉 Overall: High model performance doesn’t guarantee stable or fair summarization.
 
