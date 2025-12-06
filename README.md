@@ -249,21 +249,17 @@ data/
 
 ## 9. What I Learned
 
-This project pushed me to evaluate LLMs the way financial institutions evaluate real risk models.
-The more I tested identity-controlled summaries, the clearer it became that the real question isn’t performance.
-It’s stability.
+I didn’t expect this project to change how I think about AI, but it did.
+The deeper I went into the summaries, the more I realized that model testing isn’t just about metrics. It’s about understanding how small shifts in language can change how someone feels, what they understand, or how they make a financial decision.
 
-If reasoning shifts when nothing meaningful changes in the input, that’s a model risk problem.
+What kept surprising me was how subtle the drift was.
+Two summaries that looked “fine” at a glance could carry different sentiment or emphasis, and that’s the kind of difference that becomes a real problem in finance. That taught me to slow down, look for patterns, and ask why the model moved instead of just checking whether it scored well.
 
-Working through ROUGE variance, MANOVA outputs, and AIR thresholds taught me to separate noise from structural drift.
-Once I saw consistent movement tied to identity terms, I stopped treating the summaries as “outputs” and started treating them as behavioral signals.
-That shift helped me build a habit I rely on now: map the pattern first, then pressure-test it until the model finally shows its logic.
+As I built the framework, I found myself caring less about whether the model was “good” and more about whether it was consistent, fair, and explainable. That shift made me realize I enjoy the work of breaking things down, stress-testing them, and rebuilding a process that holds up when the stakes are high.
 
-The biggest takeaway was understanding how small narrative deviations can escalate into trust, compliance, and communication issues in a regulated environment.
-A model doesn’t need to be wildly wrong to be risky; it only needs to be inconsistent.
-
-This project sharpened how I design experiments, document model behavior, and communicate risk.
-For a fast visual walkthrough, the Presentation and Poster in this repo highlight the full workflow and where bias signals surfaced.
+This experience is a big part of why I’m drawn to roles in payments, risk, and financial AI.
+The systems are huge, the responsibility is real, and there’s no room for instability hiding under good looking metrics.
+I like environments where staying curious, structured, and calm actually matters, and this project showed me that those instincts aren’t just preferences—they’re strengths.
 
 ---
 
