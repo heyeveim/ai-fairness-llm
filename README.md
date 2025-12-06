@@ -29,9 +29,10 @@ This project quantifies those invisible shifts and shows what must be checked be
     • Example: white_male vs. white_female, p = 0.023
     • Subtle but consistent drift → possible model-level issue
 
-    <img width="469" alt="Image" src="https://github.com/user-attachments/assets/793a4c9a-f8a2-4df6-aeb1-cd047088d780" />
+<img width="469" alt="Image" src="https://github.com/user-attachments/assets/793a4c9a-f8a2-4df6-aeb1-cd047088d780" />
 <img width="463" alt="Image" src="https://github.com/user-attachments/assets/ce47b1b5-bcd5-4f5e-94dd-769ae5d01726" />
 <img width="558" alt="Image" src="https://github.com/user-attachments/assets/fde67bf3-8ceb-48f7-b859-b83f6295d486" />
+
 
 ✔ MANOVA confirmed structured group-level variance
 
