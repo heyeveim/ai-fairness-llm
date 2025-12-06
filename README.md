@@ -38,7 +38,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 <br>
     
-✔ MANOVA confirmed structured group-level variance
+<font size="5">✔ MANOVA confirmed structured group-level variance</font>
 
     • Roy’s Greatest Root p = 0.0076
     • Variance pattern is systematic, not noise
