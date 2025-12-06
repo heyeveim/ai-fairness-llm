@@ -36,7 +36,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 <p style="margin-bottom:40px;">
 
 
-<br><br><br>
+<br><br>
     
 ✔ MANOVA confirmed structured group-level variance
 
