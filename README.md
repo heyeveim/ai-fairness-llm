@@ -166,6 +166,9 @@ data/
 
 ## 5. Core Code Snippets (Just Enough to Show Competence)
 
+
+
+
 ### Summary generation: 
 
 ```text
