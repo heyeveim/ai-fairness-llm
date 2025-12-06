@@ -14,7 +14,7 @@ This project focuses on fairness, stability, and deployment risk in AI systems u
 
 Financial institutions increasingly rely on AI to summarize complex narratives and interact with customers.
 
-• The risk:
+• **The risk**:
 Two customers with identical financial behavior may receive different outputs simply because identity terms changed.
 
 
