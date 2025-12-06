@@ -30,18 +30,22 @@ This project quantifies those invisible shifts and shows what must be checked be
     • Subtle but consistent drift → possible model-level issue
 
 ✔ MANOVA confirmed structured group-level variance
+
     • Roy’s Greatest Root p = 0.0076
     • Variance pattern is systematic, not noise
 
 ✔ CCA revealed weak but consistent relationships
+
     • Strongest canonical correlation ≈ 0.1664
     • Identity terms correlate with evaluation metric movements
 
 ✔ AIR (Adverse Impact Ratio) flagged fairness gaps
+
     • Certain groups fell below acceptable thresholds
     • Implication: potential regulatory scrutiny
 
 ✔ Sentiment polarity drift occurred even with controlled content
+
     • Same story, different identity → tonal shifts
     • Risky for customer communication and perceived fairness
 
@@ -97,6 +101,7 @@ src/
 data/
     stories_clean.csv
     identity_variants.csv
+```
 
 This immediately signals:
 
