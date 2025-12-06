@@ -249,13 +249,21 @@ data/
 
 ## 9. What I Learned
 
-This project reinforced that in finance, the real challenge isn’t just getting a correct answer.
-It’s ensuring consistent reasoning across every customer profile.
-Even small summary drift can influence customer trust, regulatory exposure, and communication clarity.
+This project pushed me to evaluate LLMs the way financial institutions evaluate real risk models.
+The more I tested identity-controlled summaries, the clearer it became that the real question isn’t performance.
+It’s stability.
 
-The goal wasn’t simply to test a model.
+If reasoning shifts when nothing meaningful changes in the input, that’s a model risk problem.
 
-It was to understand where it wobbles, why it happens, and how to measure it with structure and discipline.
+Working through ROUGE variance, MANOVA outputs, and AIR thresholds taught me to separate noise from structural drift.
+Once I saw consistent movement tied to identity terms, I stopped treating the summaries as “outputs” and started treating them as behavioral signals.
+That shift helped me build a habit I rely on now: map the pattern first, then pressure-test it until the model finally shows its logic.
+
+The biggest takeaway was understanding how small narrative deviations can escalate into trust, compliance, and communication issues in a regulated environment.
+A model doesn’t need to be wildly wrong to be risky; it only needs to be inconsistent.
+
+This project sharpened how I design experiments, document model behavior, and communicate risk.
+For a fast visual walkthrough, the Presentation and Poster in this repo highlight the full workflow and where bias signals surfaced.
 
 ---
 
@@ -268,6 +276,8 @@ It was to understand where it wobbles, why it happens, and how to measure it wit
 - Reproducible Jupyter Notebooks
 
 - Cleaned datasets and helper scripts
+
+👉 If you want the fast, visual overview, the Presentation & Poster summarize the entire workflow, findings, and fairness implications at a glance.
 
 
 # Summary generation: 
