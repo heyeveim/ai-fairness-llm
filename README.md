@@ -249,8 +249,7 @@ data/
 
 ## 9. What I Learned
 
-- <u>This project changed the way I look at model behavior in financial systems.</u>
-<br> Once I started comparing summaries across identity groups, it became clear that metrics alone don’t tell the whole story. A model can look strong on ROUGE or BERTScore, yet still show small directional drift that matters when decisions or customer communication sit on top of it.
+- This project changed the way I look at model behavior in financial systems. <br> Once I started comparing summaries across identity groups, it became clear that metrics alone don’t tell the whole story. A model can look strong on ROUGE or BERTScore, yet still show small directional drift that matters when decisions or customer communication sit on top of it.
 
 
 - What stood out most to me was how **quiet** the patterns were.<br> A slight polarity shift or a subtle change in emphasis wasn’t obvious at first, but once I mapped them across groups, the consistency of the drift became the signal. That’s when the work started to feel less like NLP evaluation and more like **risk analysis** finding the small discrepancies that compound into downstream impact if nobody catches them.
