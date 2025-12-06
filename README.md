@@ -14,8 +14,9 @@ This project focuses on fairness, stability, and deployment risk in AI systems u
 
 Financial institutions increasingly rely on AI to summarize complex narratives and interact with customers.
 
-The risk:
+•The risk:
 Two customers with identical financial behavior may receive different outputs simply because identity terms changed.
+
 
 This project quantifies those invisible shifts and shows what must be checked before deploying LLMs in regulated environments.
 
@@ -24,7 +25,9 @@ This project quantifies those invisible shifts and shows what must be checked be
 ## 2. What This Project Actually Shows (Key Insights) 
 
 ✔ Identity terms alone produced statistically meaningful ROUGE-1 F1 shifts
+
     • Example: white_male vs. white_female, p = 0.023
+    
     • Subtle but consistent drift → possible model-level issue
 
 ✔ MANOVA confirmed structured group-level variance
