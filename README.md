@@ -34,7 +34,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 <img width="558" alt="Image" src="https://github.com/user-attachments/assets/fde67bf3-8ceb-48f7-b859-b83f6295d486" />
 
 <p style="margin-bottom:40px;">
-............................................................
+........................................................................................................................
   
 #### ✔ MANOVA confirmed structured group-level variance 
 
@@ -46,7 +46,7 @@ This project quantifies those invisible shifts and shows what must be checked be
   <img width="540" alt="Image" src="https://github.com/user-attachments/assets/0546fec2-619b-4325-955f-8b034639ce9a" />
   <br />
 </p>
-............................................................
+........................................................................................................................
 
 #### ✔ CCA revealed weak but consistent relationships
 
@@ -58,7 +58,7 @@ This project quantifies those invisible shifts and shows what must be checked be
   <img width="558" alt="Image" src="https://github.com/user-attachments/assets/99ca8ea1-dba1-4f8a-8eb9-044e24b49ca1" />
   <br />
 </p>
-............................................................
+........................................................................................................................
 
 #### ✔ AIR (Adverse Impact Ratio) flagged fairness gaps
 
@@ -69,7 +69,7 @@ This project quantifies those invisible shifts and shows what must be checked be
       <img width="556" alt="Image" src="https://github.com/user-attachments/assets/b872c32f-116b-439f-8784-65fb7628273a" />
       <br />
     </p>
-............................................................
+........................................................................................................................
 
 #### ✔ Sentiment polarity drift occurred even with controlled content
 
@@ -92,6 +92,20 @@ This project demonstrates exactly where and how the drift happens.
 ## 3. How the Model Was Evaulated
 
 The evaluation framework mirrors a real financial Model Validation workflow, not a simple metric comparison.
+
+The following flowchart outlines the **full step-by-step process**, from use case definition to final fairness assessment:
+
+<p align="center">
+  <img width="407" alt="Image" src="https://github.com/user-attachments/assets/ab4de833-18ec-460b-a5a5-d82d0b15c0a0" />
+  <br />
+</p>
+
+
+<p align="center">
+  <img width="540" alt="Image" src="https://github.com/user-attachments/assets/dfd04acf-8f17-4059-8ccf-2a5b14806163" />
+  <br />
+</p>
+
 
 **Full Framework:**
 
