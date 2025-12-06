@@ -43,7 +43,7 @@ This project quantifies those invisible shifts and shows what must be checked be
     • Variance pattern is systematic, not noise
 
 
-    <p align="center">
+<p align="center">
   <img width="540" alt="Image" src="https://github.com/user-attachments/assets/0546fec2-619b-4325-955f-8b034639ce9a" />
   <br />
 </p>
@@ -69,7 +69,7 @@ This project quantifies those invisible shifts and shows what must be checked be
     • Certain groups fell below acceptable thresholds
     • Implication: potential regulatory scrutiny
 
-    <p align="center">
+<p align="center">
       <img width="556" alt="Image" src="https://github.com/user-attachments/assets/b872c32f-116b-439f-8784-65fb7628273a" />
       <br />
     </p>
@@ -81,7 +81,7 @@ This project quantifies those invisible shifts and shows what must be checked be
     • Same story, different identity → tonal shifts
     • Risky for customer communication and perceived fairness
 
-    <p align="center">
+<p align="center">
   <img width="558" alt="Image" src="https://github.com/user-attachments/assets/ec22dfc4-db92-4bf1-945a-b53e12d6b3d0" />
   <br />
 </p>
