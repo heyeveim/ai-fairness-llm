@@ -229,6 +229,11 @@ This immediately signals:
 
 ## 8. Practical Takeaways for Financial Institutions
 
+<p align="center">
+  <img width="561" alt="Image" src="https://github.com/user-attachments/assets/e2281c46-5848-4546-83db-72ff18741a99" />
+  <br />
+ </p>
+ 
 - Summary quality must be evaluated per identity group, not just overall.
 
 - Bias often hides behind high accuracy or clean metrics.
@@ -236,12 +241,7 @@ This immediately signals:
 - AIR combined with MANOVA provides a defensible fairness evaluation for regulated environments.
 
 - Human review remains irreplaceable for high-stakes deployments.
-
-<p align="center">
-  <img width="561" alt="Image" src="https://github.com/user-attachments/assets/e2281c46-5848-4546-83db-72ff18741a99" />
-  <br />
- </p>
-
+  
 
 ---
 
