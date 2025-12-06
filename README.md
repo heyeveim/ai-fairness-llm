@@ -84,6 +84,9 @@ This project quantifies those invisible shifts and shows what must be checked be
 This project demonstrates exactly where and how the drift happens.
 
 
+---
+
+
 ## 3. How the Model Was Evaulated
 
 The evaluation framework mirrors a real financial Model Validation workflow, not a simple metric comparison.
