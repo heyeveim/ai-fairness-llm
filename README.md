@@ -51,7 +51,8 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 👉 Overall: High model performance doesn’t guarantee stable or fair summarization.
 
-This project demonstrates exactly where and how the drift happens.
+    This project demonstrates exactly where and how the drift happens.
+
 
 ## 3. How the Model Was Evaulated
 
@@ -110,6 +111,44 @@ This immediately signals:
 ---
 
 ## 5. Core Code Snippets (Just Enough to Show Competence)
+
+### Summary generation: 
+
+```text
+    notebooks/
+    response = co.summarize(
+        text=story,
+        model="command-r",
+        length="medium",
+        additional_context={"identity": identity_tag}
+    )
+    
+        identity_variants.csv
+```
+
+### ROUDGE & BERT Evaluation: 
+
+```text
+    scores = {
+        "rouge1": rouge.get_scores(summary, reference)[0]['rouge-1']['f'],
+        "bertscore": bert_score([summary], [reference])[2].mean().item()
+    }
+
+```
+
+### MANOVA: 
+
+```text
+    manova = MANOVA.from_formula(
+        "rouge1 + bertscore ~ identity_group",
+        data=df_metrics
+    )
+    print(manova.mv_test())
+```
+
+
+# Summary generation: 
+
 Summary generation
 
 <p align="center">
