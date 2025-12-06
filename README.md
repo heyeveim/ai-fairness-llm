@@ -38,7 +38,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 <br>
     
-✔ MANOVA confirmed structured group-level variance 
+#### ✔ MANOVA confirmed structured group-level variance 
 
     • Roy’s Greatest Root p = 0.0076
     • Variance pattern is systematic, not noise
@@ -52,7 +52,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 
 <br>
 
-✔ CCA revealed weak but consistent relationships
+#### ✔ CCA revealed weak but consistent relationships
 
     • Strongest canonical correlation ≈ 0.1664
     • Identity terms correlate with evaluation metric movements
@@ -67,7 +67,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 <br>
 
 
-✔ AIR (Adverse Impact Ratio) flagged fairness gaps
+#### ✔ AIR (Adverse Impact Ratio) flagged fairness gaps
 
     • Certain groups fell below acceptable thresholds
     • Implication: potential regulatory scrutiny
@@ -81,7 +81,7 @@ This project quantifies those invisible shifts and shows what must be checked be
 <br>
 
 
-✔ Sentiment polarity drift occurred even with controlled content
+#### ✔ Sentiment polarity drift occurred even with controlled content
 
     • Same story, different identity → tonal shifts
     • Risky for customer communication and perceived fairness
