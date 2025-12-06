@@ -249,17 +249,20 @@ data/
 
 ## 9. What I Learned
 
-I didn’t expect this project to change how I think about AI, but it did.
-The deeper I went into the summaries, the more I realized that model testing isn’t just about metrics. It’s about understanding how small shifts in language can change how someone feels, what they understand, or how they make a financial decision.
+This project changed the way I look at model behavior in financial systems.
+Once I started comparing summaries across identity groups, it became clear that metrics alone don’t tell the whole story. A model can look strong on ROUGE or BERTScore, yet still show small directional drift that matters when decisions or customer communication sit on top of it.
 
-What kept surprising me was how subtle the drift was.
-Two summaries that looked “fine” at a glance could carry different sentiment or emphasis, and that’s the kind of difference that becomes a real problem in finance. That taught me to slow down, look for patterns, and ask why the model moved instead of just checking whether it scored well.
+What stood out most to me was how quiet the patterns were.
+A slight polarity shift or a subtle change in emphasis wasn’t obvious at first, but once I mapped them across groups, the consistency of the drift became the signal. That’s when the work started to feel less like NLP evaluation and more like risk analysis—finding the small discrepancies that compound into downstream impact if nobody catches them.
 
-As I built the framework, I found myself caring less about whether the model was “good” and more about whether it was consistent, fair, and explainable. That shift made me realize I enjoy the work of breaking things down, stress-testing them, and rebuilding a process that holds up when the stakes are high.
+Building the framework pushed me to think like a validator:
+stress the model, isolate the variables, and check whether its behavior stays stable when the inputs aren’t convenient. Incorporating MANOVA, AIR thresholds, and sentiment deltas made me realize how important it is to test models the way they’ll actually be used, not just the way they perform in ideal conditions.
 
-This experience is a big part of why I’m drawn to roles in payments, risk, and financial AI.
-The systems are huge, the responsibility is real, and there’s no room for instability hiding under good looking metrics.
-I like environments where staying curious, structured, and calm actually matters, and this project showed me that those instincts aren’t just preferences—they’re strengths.
+What I took away is simple:
+I enjoy the work of making systems reliable.
+I like breaking apart behavior, tracing patterns, and figuring out where inconsistencies start before they turn into operational or regulatory risk. And the more high-stakes the environment, the more my structure-first, signal-vs-noise mindset actually becomes useful.
+
+This project made it clear that my strengths line up well with roles where stability, consistency, and clear reasoning matter—whether that’s in payments, model risk, or broader financial AI. It confirmed that I’m drawn to environments where keeping a system steady isn’t a background task; it’s the core of the job.
 
 ---
 
