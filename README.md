@@ -80,8 +80,6 @@ The evaluation framework mirrors a real financial Model Validation workflow, not
 
 ## 4. Repository Structure 
 
-## 📁 Repository Structure
-
 ```text
 notebooks/
     01_preprocessing.ipynb
