@@ -60,26 +60,25 @@ The evaluation framework mirrors a real financial Model Validation workflow, not
 
 **Full Framework:**
 
-**1.** Define financial use case
+**1.**  Define financial use case
 
-**2.** Collect and clean narratives
+**2.**  Collect and clean narratives
 
-**3.** Design identity-controlled prompts
+**3.**  Design identity-controlled prompts
 
-**4.** Generate summaries with Cohere
+**4.**  Generate summaries with Cohere
 
-**5.** Evaluate with ROUGE + BERTScore
+**5.**  Evaluate with ROUGE + BERTScore
 
-**6.** Run ANOVA, MANOVA, CCA
+**6.**  Run ANOVA, MANOVA, CCA
 
-**7.** Perform AIR fairness checks
+**7.**  Perform AIR fairness checks
 
-**8.** Apply sentiment and human review for final assessment
+**8.**  Apply sentiment and human review for final assessment
 
 ---
 
 ## 4. Repository Structure 
-A structure designed so hiring managers instantly understand your workflow:
 
 ## 📁 Repository Structure
 
