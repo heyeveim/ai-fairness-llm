@@ -154,15 +154,20 @@ This immediately signals:
 - Some groups consistently fall below AIR thresholds.
 
 - Fairness cannot rely on metrics alone. Narrative-level review is essential.
-- 
+
+  
 ---
 
 ## 7. Tools & Stack
 
 **LLM API** : Cohere Command R (AWS Bedrock)
+
 **Metrics**: ROUGE, BERTScore
+
 **NLP**: TextBlob
+
 **Stats**: scipy, statsmodels, sklearn
+
 **Environment**: Python 3.9, Jupyter Notebook
 
 ---
@@ -177,7 +182,6 @@ This immediately signals:
 
 - Human review remains irreplaceable for high-stakes deployments.
 
-
 ---
 
 ## 9. What I Learned
@@ -189,7 +193,6 @@ Even small summary drift can influence customer trust, regulatory exposure, and 
 The goal wasn’t simply to test a model.
 
 It was to understand where it wobbles, why it happens, and how to measure it with structure and discipline.
-
 
 ---
 
